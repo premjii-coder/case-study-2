@@ -1,0 +1,25 @@
+.copy_right_footer{
+    position: fixed;
+    color: violet;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+    line-height: 3;
+    text-align: center;
+}
+.text_image_and_result{
+    animation-name:color;
+    animation-duration: 6s;
+    animation-iteration-count: infinite; 
+    }
+    @keyframes color{
+        from{box-shadow: 5px 5px 38px rgb(119, 255, 0);}
+        to{box-shadow: 5px 5px 38px rgb(255, 0, 0);}
+    }
+    .img-responsive{
+        width: 450px;
+        height: 300px;
+    }
+body{
+    background-color: aqua;
+}
